@@ -1,53 +1,35 @@
-💬 Basic Chatbot
-📘 Project Overview
+# 💬 Basic Chatbot  
 
-This Basic Chatbot project was developed as part of my Python internship at CodeAlpha.
-The main objective of this project is to create a simple text-based chatbot that can engage in basic conversation using predefined rules and responses.
+## 📘 Overview  
+This project focuses on building a simple rule-based chatbot that can respond to basic user inputs such as greetings and farewells. It demonstrates fundamental Python programming concepts like conditional statements, loops, and functions.  
 
-The chatbot takes user input such as greetings or common phrases and responds appropriately using if-elif conditions. This project demonstrates the fundamentals of control flow, user interaction, and function-based programming in Python.
+## 🎯 Objective  
+To design a text-based chatbot that provides predefined responses to user input using simple rule-based logic.  
 
-Through this project, I improved my understanding of loops, conditionals, and function design, while gaining experience in creating simple interactive programs.
+## 🚀 Features  
+- Responds to user inputs such as “hello”, “how are you”, and “bye”  
+- Uses rule-based logic with if-elif statements  
+- Interactive text-based console interface  
+- Easy to modify and extend with additional responses  
 
-🎯 Objective
+## 🧠 Tech Stack  
+- Python  
+- If-elif statements  
+- Functions and loops  
+- Console input/output  
 
-To design a simple rule-based chatbot that provides predefined responses to user input.
+## ⚙️ How It Works  
+1. The chatbot receives user input from the console.  
+2. It checks the input using if-elif statements to find a matching predefined response.  
+3. The chatbot prints the appropriate reply to the console.  
+4. The conversation continues until the user types “bye”.  
 
-🚀 Features
+## 💡 Example Conversation  
+You: hello
+Bot: Hi!
 
-Responds to basic user inputs like “hello”, “how are you”, and “bye”
+You: how are you
+Bot: I'm fine, thanks!
 
-Uses rule-based logic with if-elif statements
-
-Interactive text-based interface
-
-Easy to modify and extend with more responses
-
-🧠 Tech Stack
-
-Python
-
-If-elif statements for logic
-
-Functions and loops for structure
-
-Console input/output for interaction
-
-⚙️ How It Works
-
-The user types a message such as “hello” or “how are you”.
-
-The chatbot checks the input using if-elif statements.
-
-A predefined response is returned to the user.
-
-The conversation continues until the user types “bye”.
-
-💡 Example Conversation
-You: hello  
-Bot: Hi!  
-
-You: how are you  
-Bot: I'm fine, thanks!  
-
-You: bye  
+You: bye
 Bot: Goodbye!
